@@ -131,3 +131,6 @@ dmypy.json
 
 # word embeddings
 *.vec
+
+# binary Fasttext model
+*.bin
