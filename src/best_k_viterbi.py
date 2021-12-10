@@ -1,4 +1,4 @@
-import math
+import numpy as np
 
 START_STATE_KEY = "START"
 STOP_STATE_KEY = "STOP"
@@ -56,7 +56,7 @@ def convert_to_log_emission_params(emission_dict):
         add_dict = dict()
         for j in list(target_word_set):
             if (j,i) in emission_dict:
-                add_dict[j] = math.log(emission_dict[(j,i)]) if emission_dict[(j,i)]>0 else LOG_ZERO_PROB
+                add_dict[j] = np.log(emission_dict[(j,i)]) if emission_dict[(j,i)]>0 else LOG_ZERO_PROB
             else:
                 add_dict[j] = 0
         output_dict[i] = add_dict
