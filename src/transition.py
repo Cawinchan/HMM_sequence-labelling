@@ -20,8 +20,6 @@ def  MLE_transition_parameters(train_dir = "data/ES/train"):
     count_y_to_y_dict = {}
     transition_dict = {}
     prev_label = ""
-    count = 0
-    othercount = 0
 
     with open(train_dir, "r", encoding="utf8") as f:
         for line in f:
@@ -29,7 +27,6 @@ def  MLE_transition_parameters(train_dir = "data/ES/train"):
             if len(line.split(" ")) == 2:
                 word, label = line.replace("\n","").split(" ")
             else:
-                word = ''
                 label = ''
             if label == '' and prev_label != '':
                 count_y_dict["STOP"] = count_y_dict.get("STOP") + 1 if count_y_dict.get("STOP") else 1

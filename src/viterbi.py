@@ -6,7 +6,7 @@ def viterbi(emission_dict, transition_dict, test_dir, output_dir = "data/ES/dev.
     :param emission_dict: emission_dict dictionary
     :type emission_dict: dict
 
-    :param transition_dict: transmission dictionary
+    :param transition_dict: transition dictionary
     :type transition_dict: dict
     
     :param test_dir: our test file in either ES or RU
@@ -32,6 +32,7 @@ def viterbi(emission_dict, transition_dict, test_dir, output_dir = "data/ES/dev.
             test_array += [line.replace("\n","")]
 
     count = 1
+    #Parse each line, calculate the probabilities for each label and create a dictionary for each line with the label probabilities.
     for word in test_array:
         temp_dict = {'word': word}
         if word == '':
@@ -62,9 +63,6 @@ def viterbi(emission_dict, transition_dict, test_dir, output_dir = "data/ES/dev.
                     temp_list = []
                     for prev_y in labels:
                         if viterbi_array[count - 1].get(prev_y) != float("-inf"):
-                            # if count ==  5328:
-                            #     print(emission_dict.get((word, t)))
-                            #     print(transition_dict.get((prev_y, t)))
                             if transition_dict.get((prev_y, t)):
                                 temp_list.append(viterbi_array[count - 1].get(prev_y)[0] + transition_dict.get((prev_y, t)) + emission_dict.get((word, t)))
                             else:
@@ -78,7 +76,7 @@ def viterbi(emission_dict, transition_dict, test_dir, output_dir = "data/ES/dev.
                 
             viterbi_array.append(temp_dict)
         count += 1
-
+    #Backtrack the viterbi array to find the highest probability paths
     result_array = [""]*len(viterbi_array)
     for i in range(len(viterbi_array) - 1, 0, -1):
         if i == len(viterbi_array) - 1:
@@ -93,7 +91,7 @@ def viterbi(emission_dict, transition_dict, test_dir, output_dir = "data/ES/dev.
                 prev_label = viterbi_array[i].get(prev_label)[1]
             except:
                 prev_label = 'O'
-
+    #Write the results into a text file
     with open(output_dir,'w', encoding="utf-8") as f:
         for i in result_array[1:]:
             f.write(i + '\n')
