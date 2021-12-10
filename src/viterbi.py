@@ -22,7 +22,7 @@ def viterbi(emission_dict, transition_dict, test_dir, output_dir = "data/ES/dev.
 
 
     test_array = []
-    viterbi_array = [{"word": "", 'O': 0, "START": (1, ''), 'STOP': 0, 'B-positive': 0, 'B-negative': 0, 'B-neutral': 0, 'I-positive': 0, 'I-negative': 0, 'I-neutral': 0}]
+    viterbi_array = [{"word": "", 'O': float("-inf"), "START": (1, ''), 'STOP': float("-inf"), 'B-positive': float("-inf"), 'B-negative': float("-inf"), 'B-neutral': float("-inf"), 'I-positive': float("-inf"), 'I-negative': float("-inf"), 'I-neutral': float("-inf")}]
     labels = ['O', 'START', 'STOP', 'B-positive', 'B-negative', 'B-neutral', 'I-positive', 'I-negative', 'I-neutral']
 
     emission_word_set = set(i[0] for i in list(emission_dict.keys()))
@@ -37,13 +37,13 @@ def viterbi(emission_dict, transition_dict, test_dir, output_dir = "data/ES/dev.
         if word == '':
             temp_list = []
             for prev_y in labels:
-                if viterbi_array[count - 1].get(prev_y) != 0:
+                if viterbi_array[count - 1].get(prev_y) != float("-inf"):
                     if transition_dict.get((prev_y, "STOP")):
                         temp_list.append(np.longdouble(viterbi_array[count - 1].get(prev_y)[0] + transition_dict.get((prev_y, "STOP"))))
                     else:
-                        temp_list.append(0)
+                        temp_list.append(float("-inf"))
                 else:
-                    temp_list.append(0)
+                    temp_list.append(float("-inf"))
 
             max_index = np.argmax(temp_list)
             for y in labels:
@@ -52,7 +52,7 @@ def viterbi(emission_dict, transition_dict, test_dir, output_dir = "data/ES/dev.
                 elif y == "START":
                     temp_dict[y] = (1, '')
                 else:
-                    temp_dict[y] = 0
+                    temp_dict[y] = float("-inf")
             viterbi_array.append(temp_dict)
         else:
             if word not in emission_word_set:
@@ -61,20 +61,20 @@ def viterbi(emission_dict, transition_dict, test_dir, output_dir = "data/ES/dev.
                 if emission_dict.get((word, t)):
                     temp_list = []
                     for prev_y in labels:
-                        if viterbi_array[count - 1].get(prev_y) != 0:
+                        if viterbi_array[count - 1].get(prev_y) != float("-inf"):
                             # if count ==  5328:
                             #     print(emission_dict.get((word, t)))
                             #     print(transition_dict.get((prev_y, t)))
                             if transition_dict.get((prev_y, t)):
                                 temp_list.append(viterbi_array[count - 1].get(prev_y)[0] + transition_dict.get((prev_y, t)) + emission_dict.get((word, t)))
                             else:
-                                temp_list.append(0)
+                                temp_list.append(float("-inf"))
                         else:
-                            temp_list.append(0)
+                            temp_list.append(float("-inf"))
                     max_index = np.argmax(temp_list)
                     temp_dict[t] = (temp_list[max_index], labels[max_index])
                 else:
-                    temp_dict[t] = 0
+                    temp_dict[t] = float("-inf")
                 
             viterbi_array.append(temp_dict)
         count += 1
