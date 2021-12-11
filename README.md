@@ -33,13 +33,13 @@
 ```
 # How to run 
 
-## Generate Outputs 
+## Generate outputs 
  
  ```bash
  $ python main.py
  ```
 
-## run_test.sh
+## Evaluate generated outputs
  
  ```bash
  $ chmod 777 run_test.sh 
