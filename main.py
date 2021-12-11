@@ -3,11 +3,11 @@ import numpy as np
 from src.emission import MLE_emission_parameters, new_MLE_emission_parameters_with_unknown, predict_y
 from src.transition import MLE_transition_parameters
 from src.viterbi import viterbi
-from best_k_viterbi import output_function
+from src.best_k_viterbi import output_function
 from src.test_paramters import test_emission_proba_dict,test_transmission_proba_dict
 from src.test_paramters import epsilon, START_STATE_KEY, STOP_STATE_KEY
 
-folder_dir = "RU"
+folder_dir = "ES"
 train_dir = f"data/{folder_dir}/train"
 test_dir = f"data/{folder_dir}/dev.in"
 

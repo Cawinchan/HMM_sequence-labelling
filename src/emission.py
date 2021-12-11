@@ -39,15 +39,15 @@ def MLE_emission_parameters(train_dir = "data/ES/train"):
                 count_y_to_x_dict[(word,label)] = count_y_to_x_dict.get((word,label)) + 1
             else:
                 count_y_to_x_dict[(word,label)] = 1
-    print("count(y): \n", count_y_dict, "\n")
-    print("count(y->x): \n",list(count_y_to_x_dict.items())[0:5], len(count_y_to_x_dict), "\n")
+    # print("count(y): \n", count_y_dict, "\n")
+    # print("count(y->x): \n",list(count_y_to_x_dict.items())[0:5], len(count_y_to_x_dict), "\n")
     # Calculate our emission
     for key, value in count_y_to_x_dict.items(): # Default is iterate keys()
         word = key[0]
         label = key[1]
         prob =  value / count_y_dict.get(label)
         emission_dict[key] = np.where(prob != 0, np.log(prob), float("-inf"))
-    print("MLE: \n",list(emission_dict.items())[0:5],len(emission_dict) ,"\n")
+    # print("MLE: \n",list(emission_dict.items())[0:5],len(emission_dict) ,"\n")
 
     return count_y_dict, count_y_to_x_dict, emission_dict
 
@@ -78,11 +78,11 @@ def new_MLE_emission_parameters_with_unknown(count_y_dict, count_y_to_x_dict, em
         prob =  value / (count_y_dict.get(label) + k)
         emission_dict[key] = np.where(prob != 0, np.log(prob), float("-inf"))
 
-    print("#UNK# values:")
+    # print("#UNK# values:")
     for key in count_y_dict:
         prob = k / (count_y_dict.get(key) + k)
         emission_dict[("#UNK#",key)] = np.where(prob != 0, np.log(prob), float("-inf"))
-        print(("#UNK#",key),emission_dict.get(("#UNK#",key)))
+        # print(("#UNK#",key),emission_dict.get(("#UNK#",key)))
     return emission_dict
 
 # Answer for Part 1c)

@@ -53,14 +53,14 @@ def  MLE_transition_parameters(train_dir = "data/ES/train"):
                 else:
                     count_y_to_y_dict[(prev_label, label)] = 1
             prev_label = label
-    print("count(y): \n", count_y_dict, "\n")
-    print("count(y->x): \n",list(count_y_to_y_dict.items()), len(count_y_to_y_dict), "\n")
+    # print("count(y): \n", count_y_dict, "\n")
+    # print("count(y->x): \n",list(count_y_to_y_dict.items()), len(count_y_to_y_dict), "\n")
     # Calculate our transition
     for key, value in count_y_to_y_dict.items(): # Default is iterate keys()
         prev_label = key[0]
         label = key[1]
         prob =  value / count_y_dict.get(prev_label)
         transition_dict[key] = np.where(prob != 0, np.log(prob), float("-inf"))
-    print("MLE: \n",list(transition_dict.items()), len(transition_dict) ,"\n")
+    # print("MLE: \n",list(transition_dict.items()), len(transition_dict) ,"\n")
 
     return count_y_dict, count_y_to_y_dict, transition_dict
