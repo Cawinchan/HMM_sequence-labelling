@@ -3,14 +3,12 @@ import numpy as np
 from src.emission import MLE_emission_parameters, new_MLE_emission_parameters_with_unknown, predict_y
 from src.transition import MLE_transition_parameters
 from src.viterbi import viterbi
-from src.best_k_viterbi import output_function
-from src.test_paramters import test_emission_proba_dict,test_transmission_proba_dict
-from src.test_paramters import epsilon, START_STATE_KEY, STOP_STATE_KEY
+from src.best_k_viterbi import get_stateset_and_wordset, convert_to_log_nonsparse_emission_dict, convert_to_log_nonsparse_tranmission_dict
+from src.part_3 import part_3
 
 folder_dir = "ES"
 train_dir = f"data/{folder_dir}/train"
 test_dir = f"data/{folder_dir}/dev.in"
-
 
 if __name__ == "__main__":
     # Part 1
@@ -35,23 +33,11 @@ if __name__ == "__main__":
     viterbi(emission_dict, transition_dict, test_dir, p2_output_dir)
 
     # Part 3 
-
-    # Tests to see validity of best K viterbi algorithm  
-    test_1 = output_function(["b","c"],test_emission_proba_dict,test_transmission_proba_dict,1)
-    test_1_expected_sequences = [START_STATE_KEY,"Z","Y",STOP_STATE_KEY]
-    assert abs((np.e**test_1[0][0])-0.0864)<=epsilon
-    assert len(test_1_expected_sequences)==len(test_1[0][1])
-    for i in range(len(test_1_expected_sequences)):
-        assert test_1[0][1][i]==test_1_expected_sequences[i]
-        
-    test_2 = output_function(["b","c"],test_emission_proba_dict,test_transmission_proba_dict,3)
-    test_2_expected_scores = [0.0864,0.0576,0]
-    test_2_expected_sequences = [[START_STATE_KEY,"Z","Y",STOP_STATE_KEY],[START_STATE_KEY,"X","Y",STOP_STATE_KEY]]
-    for i in range(len(test_2_expected_scores)):
-        assert abs((np.e**test_2[i][0])-test_2_expected_scores[i])<=epsilon
-    for i in range(len(test_2_expected_sequences)):
-        for j in range(len(test_2_expected_sequences[i])):
-            assert test_2[i][1][j]==test_2_expected_sequences[i][j]
+    stateset, wordset = get_stateset_and_wordset(emission_dict,transition_dict)
+    nonsparse_emission_dict = convert_to_log_nonsparse_emission_dict(emission_dict,stateset,wordset)
+    nonsparse_transmission_dict = convert_to_log_nonsparse_tranmission_dict(transition_dict,stateset)
+    part_3(nonsparse_emission_dict,nonsparse_transmission_dict,stateset,test_dir)
+    
 
 
 
