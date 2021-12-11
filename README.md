@@ -1,40 +1,43 @@
 # HMM_sequence-labelling
 
 # File Architecture 
-
-├── data
-│   ├── ES        <- Spanish train and test set
-|        ├── dev.in                   <- Test data
-|        ├── dev.out                  <- Gold Standard
-|        ├── dev.p1.out               <- Generated
-|        ├── dev.p2.out               <- Generated
-|        ├── dev.p3.out               <- Generated
-|        ├── dev.p4.out               <- Generated
-|        ├── test.in                  <- Final Test data
-|        ├── train                    <- Train data
-|        ├── embeddings-l-model.bin   <- Large Binary FastText model
-|        └── embeddings-s-model.bin   <- Small Binary FastText model
-│   ├── RU        <- Russian train and test set
-│   └── Eval      <- Evaluation Script
-│
-├── src           <- Source code for use in this project.
-│   ├── emission.py             <- Part 1 solution
-│   ├── transition.py           <- Part 2a solution
-│   ├── viterbi.py              <- Part 2b solution
-│   ├── best_k_viterbi.py       <- Part 3 solution
-│   └── test_paramters.py       <- Test for best_k_viterbi
-│
-├── main.py       <- main python file
-│
-├── run_test.sh   <- Script to generate all outputs
-|
-└── results.txt   <- Log of outputs
-
+   
+```
+  ├── data
+  │   ├── ES        <- Spanish train and test set
+  |        ├── dev.in                   <- Test data
+  |        ├── dev.out                  <- Gold Standard
+  |        ├── dev.p1.out               <- Generated
+  |        ├── dev.p2.out               <- Generated
+  |        ├── dev.p3.out               <- Generated
+  |        ├── dev.p4.out               <- Generated
+  |        ├── test.in                  <- Final Test data
+  |        ├── train                    <- Train data
+  |        ├── embeddings-l-model.bin   <- Large Binary FastText model
+  |        └── embeddings-s-model.bin   <- Small Binary FastText model
+  │   ├── RU        <- Russian train and test set
+  │   └── Eval      <- Evaluation Script
+  │
+  ├── src           <- Source code for use in this project.
+  │   ├── emission.py             <- Part 1 solution
+  │   ├── transition.py           <- Part 2a solution
+  │   ├── viterbi.py              <- Part 2b solution
+  │   ├── best_k_viterbi.py       <- Part 3 solution
+  │   └── test_paramters.py       <- Test for best_k_viterbi
+  │
+  ├── main.py       <- main python file
+  │
+  ├── run_test.sh   <- Script to generate all outputs
+  |
+  └── results.txt   <- Log of outputs
+```
 # How to run 
 
 ## Generate Outputs 
  
-Run main.py 
+ ```bash
+ $ python main.py
+ ```
 
 ## run_test.sh
  
