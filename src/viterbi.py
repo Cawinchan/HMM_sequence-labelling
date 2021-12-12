@@ -1,5 +1,7 @@
 import numpy as np
 
+# Answer for Part 2b)
+
 def viterbi(emission_dict, transition_dict, test_dir, output_dir = "data/ES/dev.p2.out"):
     ''' Perform Viterbi
 

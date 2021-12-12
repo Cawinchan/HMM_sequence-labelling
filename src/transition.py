@@ -1,5 +1,7 @@
 import numpy as np
 
+# Answer for Part 2a)
+
 def  MLE_transition_parameters(train_dir = "data/ES/train"):
     ''' Calculates the transition parameters by count(y->x)/count(y)
     

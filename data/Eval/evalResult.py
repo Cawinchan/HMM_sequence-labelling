@@ -4,6 +4,8 @@ from copy import copy
 from collections import defaultdict
 from optparse import OptionParser
 
+from numpy.lib.shape_base import split
+
 #Read entities from predcition
 def get_predicted(predicted, answers=defaultdict(lambda: defaultdict(defaultdict))):
 
@@ -105,7 +107,7 @@ def get_observed(observed):
         else:
             split_line = line.split(separator)
             word = split_line[0]
-            value = split_line[outputColumnIndex]
+            value = split_line[goldOutputColumnIndex]
             ne = value[0]
             sent = value[2:]
 
@@ -229,7 +231,13 @@ prediction = open(sys.argv[2], "r", encoding='UTF-8')
 separator = ' '
 
 #the column index for tags
-outputColumnIndex = 1
+if len(sys.argv) >= 4:
+    outputColumnIndex = int(sys.argv[3])
+else:   
+    outputColumnIndex = 1
+
+goldOutputColumnIndex = 1
+
 #Read Gold data
 observed = get_observed(gold)
 
