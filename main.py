@@ -40,6 +40,6 @@ if __name__ == "__main__":
     print(f"Done generating {folder_dir} outputs")
 
     
-    # Part 4 Exists in
+    # Part 4 exists in project_part_4.ipynb
 
 
