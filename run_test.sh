@@ -35,11 +35,3 @@ python data/Eval/evalResult.py data/ES/dev.out data/ES/dev.p4.out >> results.txt
 echo "~~~~~~~~~~~~~~ Part 4: RU Results" >> results.txt
 
 python data/Eval/evalResult.py data/RU/dev.out data/RU/dev.p4.out >> results.txt
-
-echo "~~~~~~~~~~~~~~ Test: ES Results" >> results.txt
-
-python data/Eval/evalResult.py data/ES/dev.out data/ES/test.p4.out >> results.txt
-
-echo "~~~~~~~~~~~~~~ Test: RU Results" >> results.txt
-
-python data/Eval/evalResult.py data/RU/dev.out data/RU/test.p4.out >> results.txt
