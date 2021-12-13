@@ -41,6 +41,8 @@ for folder_dir in folder_dirs:
         part_3(nonsparse_emission_dict,nonsparse_transmission_dict,stateset,test_dir)
 
         print(f"Done generating {folder_dir} outputs")
+
+        # Part 4
         
 
 
