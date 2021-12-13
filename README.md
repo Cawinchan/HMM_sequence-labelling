@@ -12,8 +12,9 @@
   |        ├── dev.p3.out               <- Generated
   |        ├── dev.p4.out               <- Generated
   |        ├── test.in                  <- Final Test data
-  |        └── train                    <- Train data
-  |        
+  |        ├── train                    <- Train data
+  |        └── p4_tests                 <- Folder for k, r test outputs for extended HMM
+
   │   ├── RU        <- Russian train and test set
   │   └── Eval      <- Evaluation Script
   │
