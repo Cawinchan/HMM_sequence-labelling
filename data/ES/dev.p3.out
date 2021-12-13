@@ -5,9 +5,9 @@ muy O O O O O
 sabrosa O O O O O
 . O O O O O
 
-Servicio B-positive B-neutral B-negative O I-negative
-esmerado O O O O I-negative
-. O O O O I-negative
+Servicio B-positive B-neutral B-negative O I-positive
+esmerado O O O O I-positive
+. O O O O I-positive
 
 Para O O O O O
 un O O O O O
@@ -88,12 +88,12 @@ todo O O O O I-negative
 . O O O O O
 
 lo O O O O O
-tendre B-positive B-positive O O B-positive
+tendre B-positive B-positive O O B-negative
 en O O O O O
 cuenta O O O O O
 para O O O O O
 las O O O O O
-proximas B-positive O B-positive O B-negative
+proximas B-positive O B-positive O B-positive
 veces O O O O O
 . O O O O O
 
@@ -114,10 +114,10 @@ no O O O O O
 extraordinario O O O O O
 . O O O O O
 
-P O I-negative B-negative I-positive O
-. O I-negative I-negative I-negative I-negative
-D O I-negative I-negative I-negative I-negative
-. O I-negative I-negative I-negative I-negative
+P O I-positive O B-positive B-neutral
+. O I-positive I-positive I-positive I-positive
+D O I-positive I-positive I-positive I-positive
+. O I-positive I-positive I-positive I-positive
 
 A O O O O O
 la O O O O O
@@ -210,15 +210,15 @@ calidad O O O O O
 excelente O O O O O
 . O O O O O
 
-Todo O I-negative B-negative I-positive O
-ok O I-negative I-negative I-negative I-negative
-.. O I-negative I-negative I-negative I-negative
+Todo O I-positive O B-positive B-neutral
+ok O I-positive I-positive I-positive I-positive
+.. O I-positive I-positive I-positive I-positive
 
-Excelente O I-negative B-negative I-positive O
-el O I-negative I-negative I-negative I-negative
-circuito O I-negative I-negative I-negative I-negative
-termal O I-negative I-negative I-negative I-negative
-. O I-negative I-negative I-negative I-negative
+Excelente O I-positive O B-positive B-neutral
+el O I-positive I-positive I-positive I-positive
+circuito O I-positive I-positive I-positive I-positive
+termal O I-positive I-positive I-positive I-positive
+. O I-positive I-positive I-positive I-positive
 
 11:00 B-neutral B-neutral B-neutral B-neutral B-positive
 de O O O O O
@@ -295,11 +295,11 @@ trato B-positive B-positive B-positive B-positive B-positive
 , O O O O O
 servicio B-positive B-positive B-positive B-positive B-positive
 mas O O O O O
-predilecto B-positive O B-positive O B-positive
+predilecto B-positive O B-positive O B-negative
 , O O O O O
 mesa O O O O O
 mas O O O O O
-confortable B-positive B-positive O O B-negative
+confortable B-positive B-positive O O B-positive
 . O O O O O
 
 El O O O O O
@@ -393,10 +393,10 @@ si O O O O O
 se O O O O O
 lo O O O O O
 pides O O O O O
-vivo B-positive B-positive O O B-positive
+vivo B-positive B-positive O O B-negative
 lo O O O O O
 traen O O O O O
-vivo B-positive O B-positive O B-negative
+vivo B-positive O B-positive O B-positive
 , O O O O O
 y O O O O O
 la O O O O O
@@ -571,12 +571,12 @@ esa O O O O O
 invitacion B-positive B-positive O O B-positive
 . O O O O O
 
-Repito O O O O I-negative
-, O O O O I-negative
-la O O O O I-negative
-comida B-positive O B-negative B-neutral I-negative
-excelente O O O O I-negative
-. O O O O I-negative
+Repito O O O O I-positive
+, O O O O I-positive
+la O O O O I-positive
+comida B-positive O B-negative B-neutral I-positive
+excelente O O O O I-positive
+. O O O O I-positive
 
 La O O O O O
 pena O O O O O
@@ -597,8 +597,8 @@ cena O O O O O
 regular B-positive O B-positive O B-positive
 . O O O O O
 
-Repetiremos O I-negative B-negative I-positive O
-. O I-negative I-negative I-negative I-negative
+Repetiremos O I-positive O B-positive B-neutral
+. O I-positive I-positive I-positive I-positive
 
 Agradable O O O O O
 ambiente B-positive B-positive B-positive B-positive B-negative
@@ -739,11 +739,11 @@ recomendable O O O O O
 en O O O O O
 el O O O O O
 que O O O O O
-destacaria B-positive B-positive O O B-positive
+destacaria B-positive B-positive O O B-negative
 el O O O O O
 bacalao O O O O O
 realmente O O O O O
-gustoso B-positive O B-positive O B-negative
+gustoso B-positive O B-positive O B-positive
 y O O O O O
 en O O O O O
 su O O O O O
@@ -833,9 +833,9 @@ se O O O O O
 note B-positive O B-negative B-neutral B-positive
 . O O O O O
 
-Local B-positive B-negative I-negative B-negative I-positive
-precioso O O I-negative I-negative I-negative
-. O O I-negative I-negative I-negative
+Local B-positive B-negative I-positive O B-positive
+precioso O O I-positive I-positive I-positive
+. O O I-positive I-positive I-positive
 
 La O O O B-negative B-negative
 verdad O O O O O
@@ -953,17 +953,17 @@ de O O O O O
 Groupalia O O O O O
 . O O O O O
 
-Celebramos O I-negative B-negative I-positive O
-el O I-negative I-negative I-negative I-negative
-cumpleaños O I-negative I-negative I-negative I-negative
-de O I-negative I-negative I-negative I-negative
-mi O I-negative I-negative I-negative I-negative
-pareja O I-negative I-negative I-negative I-negative
-y O I-negative I-negative I-negative I-negative
-todo O I-negative I-negative I-negative I-negative
-fue O I-negative I-negative I-negative I-negative
-perfecto O I-negative I-negative I-negative I-negative
-. O I-negative I-negative I-negative I-negative
+Celebramos O I-positive O B-positive B-neutral
+el O I-positive I-positive I-positive I-positive
+cumpleaños O I-positive I-positive I-positive I-positive
+de O I-positive I-positive I-positive I-positive
+mi O I-positive I-positive I-positive I-positive
+pareja O I-positive I-positive I-positive I-positive
+y O I-positive I-positive I-positive I-positive
+todo O I-positive I-positive I-positive I-positive
+fue O I-positive I-positive I-positive I-positive
+perfecto O I-positive I-positive I-positive I-positive
+. O I-positive I-positive I-positive I-positive
 
 El O O O O O
 aspecto B-negative B-negative B-negative B-negative B-negative
@@ -983,20 +983,20 @@ comida B-positive B-positive B-positive B-positive B-positive
 rapida I-positive I-positive I-positive I-positive I-positive
 . O O O O O
 
-Nunca O I-negative B-negative I-positive O
-defrauda O I-negative I-negative I-negative I-negative
-. O I-negative I-negative I-negative I-negative
+Nunca O I-positive O B-positive B-neutral
+defrauda O I-positive I-positive I-positive I-positive
+. O I-positive I-positive I-positive I-positive
 
-Los O O O O I-negative
-segundos O B-positive O B-positive I-negative
-he O O O O I-negative
-probado O O O O I-negative
-varios O O O O I-negative
-, O O O O I-negative
-pero O O B-positive B-positive I-negative
-siempre O O O O I-negative
-buenos O O O O I-negative
-. O O O O I-negative
+Los O O O O I-positive
+segundos O B-positive O B-positive I-positive
+he O O O O I-positive
+probado O O O O I-positive
+varios O O O O I-positive
+, O O O O I-positive
+pero O O B-positive B-positive I-positive
+siempre O O O O I-positive
+buenos O O O O I-positive
+. O O O O I-positive
 
 Ambas B-neutral B-neutral B-neutral B-neutral B-neutral
 dos O O O O O
@@ -1012,18 +1012,18 @@ de O O O O O
 establecimeinto B-positive B-positive B-positive O B-positive
 . O O O O O
 
-Trato B-positive B-neutral B-negative I-negative B-negative
-super O O O I-negative I-negative
-amable O O O I-negative I-negative
-. O O O I-negative I-negative
+Trato B-positive B-neutral B-negative I-positive O
+super O O O I-positive I-positive
+amable O O O I-positive I-positive
+. O O O I-positive I-positive
 
-Gracias O I-negative B-negative I-positive O
-. O I-negative I-negative I-negative I-negative
+Gracias O I-positive O B-positive B-neutral
+. O I-positive I-positive I-positive I-positive
 
-Totalmente O I-negative B-negative I-positive O
-recomendable O I-negative I-negative I-negative I-negative
-! O I-negative I-negative I-negative I-negative
-! O I-negative I-negative I-negative I-negative
+Totalmente O I-positive O B-positive B-neutral
+recomendable O I-positive I-positive I-positive I-positive
+! O I-positive I-positive I-positive I-positive
+! O I-positive I-positive I-positive I-positive
 
 Buen O O O O O
 ambiente B-positive B-positive B-negative O B-negative
@@ -1071,24 +1071,24 @@ todo O O O O O
 bien O O O O O
 . O O O O O
 
-Así O I-negative B-negative I-positive O
-como O I-negative I-negative I-negative I-negative
-el O I-negative I-negative I-negative I-negative
-romesco O I-negative I-negative I-negative I-negative
-, O I-negative I-negative I-negative I-negative
-que O I-negative I-negative I-negative I-negative
-era O I-negative I-negative I-negative I-negative
-un O I-negative I-negative I-negative I-negative
-poco O I-negative I-negative I-negative I-negative
-" O I-negative I-negative I-negative I-negative
-de O I-negative I-negative I-negative I-negative
-bote O I-negative I-negative I-negative I-negative
-" O I-negative I-negative I-negative I-negative
-. O I-negative I-negative I-negative I-negative
+Así O I-positive O B-positive B-neutral
+como O I-positive I-positive I-positive I-positive
+el O I-positive I-positive I-positive I-positive
+romesco O I-positive I-positive I-positive I-positive
+, O I-positive I-positive I-positive I-positive
+que O I-positive I-positive I-positive I-positive
+era O I-positive I-positive I-positive I-positive
+un O I-positive I-positive I-positive I-positive
+poco O I-positive I-positive I-positive I-positive
+" O I-positive I-positive I-positive I-positive
+de O I-positive I-positive I-positive I-positive
+bote O I-positive I-positive I-positive I-positive
+" O I-positive I-positive I-positive I-positive
+. O I-positive I-positive I-positive I-positive
 
-Todo O I-negative B-negative I-positive O
-óptimo O I-negative I-negative I-negative I-negative
-. O I-negative I-negative I-negative I-negative
+Todo O I-positive O B-positive B-neutral
+óptimo O I-positive I-positive I-positive I-positive
+. O I-positive I-positive I-positive I-positive
 
 Por O O O O O
 cierto O O O O O
@@ -1194,9 +1194,9 @@ de O O O O O
 Zaragoza O O O O O
 . O O O O O
 
-Absolutamente O I-negative B-negative I-positive O
-recomendable O I-negative I-negative I-negative I-negative
-. O I-negative I-negative I-negative I-negative
+Absolutamente O I-positive O B-positive B-neutral
+recomendable O I-positive I-positive I-positive I-positive
+. O I-positive I-positive I-positive I-positive
 
 Pero O O O O O
 donde O O O O O
@@ -1319,22 +1319,22 @@ la O O O O O
 familia O O O O O
 . O O O O O
 
-Nos O I-negative B-negative I-positive O
-gusto O I-negative I-negative I-negative I-negative
-. O I-negative I-negative I-negative I-negative
+Nos O I-positive O B-positive B-neutral
+gusto O I-positive I-positive I-positive I-positive
+. O I-positive I-positive I-positive I-positive
 
-Los O O O O O
-vinos O O O O O
-han B-negative B-negative B-negative B-negative B-negative
-subido I-negative I-negative I-negative I-negative I-negative
-los I-negative O I-negative O I-negative
-precios I-negative O O B-positive I-negative
-alrededor O O O O I-negative
-de O O O O I-negative
-un O O O O I-negative
-30 O O O O I-negative
-% O O O O I-negative
-. O O O O I-negative
+Los O O O O I-positive
+vinos O O O O I-positive
+han B-negative B-negative B-negative B-negative I-positive
+subido I-negative I-negative I-negative I-negative I-positive
+los I-negative O I-negative O I-positive
+precios I-negative O O B-positive I-positive
+alrededor O O O O I-positive
+de O O O O I-positive
+un O O O O I-positive
+30 O O O O I-positive
+% O O O O I-positive
+. O O O O I-positive
 
 Cenamos O O O O O
 muy O O O O O
@@ -1422,18 +1422,18 @@ trato B-positive O B-negative B-positive B-neutral
 correcto O O O O O
 . O O O O O
 
-Es O I-negative B-negative I-positive O
-una O I-negative I-negative I-negative I-negative
-pasada O I-negative I-negative I-negative I-negative
-. O I-negative I-negative I-negative I-negative
+Es O I-positive O B-positive B-neutral
+una O I-positive I-positive I-positive I-positive
+pasada O I-positive I-positive I-positive I-positive
+. O I-positive I-positive I-positive I-positive
 
-Muy O O O O I-negative
-agradable O O O O I-negative
-y O O O O I-negative
-servicial B-positive O B-negative B-neutral I-negative
-! O O O O I-negative
-! O O O O I-negative
-! O O O O I-negative
+Muy O O O O I-positive
+agradable O O O O I-positive
+y O O O O I-positive
+servicial B-positive O B-negative B-neutral I-positive
+! O O O O I-positive
+! O O O O I-positive
+! O O O O I-positive
 
 Pedir B-neutral B-neutral B-neutral B-neutral B-positive
 una O O O O O
@@ -1444,19 +1444,19 @@ primer O O O O O
 piso B-positive O B-negative B-neutral B-positive
 . O O O O O
 
-Estuve O O O I-negative B-negative
-en O O O I-negative I-negative
-el O O O I-negative I-negative
-restaurante O B-positive B-negative I-negative I-negative
-este O O O I-negative I-negative
-fin O O O I-negative I-negative
-de O O O I-negative I-negative
-semana O O O I-negative I-negative
-( O O O I-negative I-negative
-marzo O O O I-negative I-negative
-2009 O O O I-negative I-negative
-) O O O I-negative I-negative
-. O O O I-negative I-negative
+Estuve O O O I-positive O
+en O O O I-positive I-positive
+el O O O I-positive I-positive
+restaurante O B-positive B-negative I-positive I-positive
+este O O O I-positive I-positive
+fin O O O I-positive I-positive
+de O O O I-positive I-positive
+semana O O O I-positive I-positive
+( O O O I-positive I-positive
+marzo O O O I-positive I-positive
+2009 O O O I-positive I-positive
+) O O O I-positive I-positive
+. O O O I-positive I-positive
 
 El O O O O B-positive
 servicio B-positive B-negative O B-neutral O
@@ -1525,11 +1525,11 @@ bastante O O O O O
 buenos O O O O O
 ! O O O O O
 
-Escriba O I-negative B-negative I-positive O
-aquí O I-negative I-negative I-negative I-negative
-su O I-negative I-negative I-negative I-negative
-comentario O I-negative I-negative I-negative I-negative
-… O I-negative I-negative I-negative I-negative
+Escriba O I-positive O B-positive B-neutral
+aquí O I-positive I-positive I-positive I-positive
+su O I-positive I-positive I-positive I-positive
+comentario O I-positive I-positive I-positive I-positive
+… O I-positive I-positive I-positive I-positive
 
 No O O O B-negative O
 se O O O O O
@@ -1561,19 +1561,19 @@ es O O O O O
 correcto O O O O O
 . O O O O O
 
-poca O O O O I-negative
-amabilidad O O O O I-negative
-del O O O O I-negative
-maitre B-negative B-positive O B-positive I-negative
-. O O O I-positive I-negative
+poca O O O O I-positive
+amabilidad O O O O I-positive
+del O O O O I-positive
+maitre B-negative B-positive O B-positive I-positive
+. O O O I-positive I-positive
 
-Muy O O O I-negative B-negative
-bien O B-positive B-positive I-negative I-negative
-. O O I-positive I-negative I-negative
+Muy O O O I-positive O
+bien O B-positive B-positive I-positive I-positive
+. O O I-positive I-positive I-positive
 
-es O I-negative B-negative I-positive O
-lo O I-negative I-negative I-negative I-negative
-mejor O I-negative I-negative I-negative I-negative
+es O I-positive O B-positive B-neutral
+lo O I-positive I-positive I-positive I-positive
+mejor O I-positive I-positive I-positive I-positive
 
 La O O O O O
 comida B-positive B-positive B-positive B-positive B-positive
@@ -1629,7 +1629,7 @@ de I-neutral I-neutral I-neutral I-neutral I-neutral
 acuerdo O O O O O
 con O O O O O
 sus O O O O O
-apreciaciones B-positive B-positive O O B-positive
+apreciaciones B-positive B-positive O O B-negative
 , O O O O O
 a O O O O O
 mí O O O O O
@@ -1639,7 +1639,7 @@ gusta O O O O O
 que O O O O O
 me O O O O O
 molesten O O O O O
-preguntándo B-positive O B-positive O B-negative
+preguntándo B-positive O B-positive O B-positive
 cómo O O O O O
 estaba O O O O O
 la O O O O O
@@ -1671,11 +1671,11 @@ pagar O O O O O
 casi O O O O O
 5 O O O O O
 € O O O O O
-x B-positive O B-positive O B-positive
+x B-positive O B-positive O B-negative
 los O O O O O
 cubiertos O O O O O
 me O O O O O
-molesta B-positive B-positive O O B-negative
+molesta B-positive B-positive O O B-positive
 siempre O O O O O
 . O O O O O
 
@@ -1694,12 +1694,12 @@ lo O O O O O
 negaban B-positive O B-negative B-neutral B-positive
 . O O O O O
 
-Volveremos O I-negative B-negative I-positive O
-. O I-negative I-negative I-negative I-negative
+Volveremos O I-positive O B-positive B-neutral
+. O I-positive I-positive I-positive I-positive
 
-Muy O I-negative B-negative I-positive O
-recomendable O I-negative I-negative I-negative I-negative
-. O I-negative I-negative I-negative I-negative
+Muy O I-positive O B-positive B-neutral
+recomendable O I-positive I-positive I-positive I-positive
+. O I-positive I-positive I-positive I-positive
 
 Algo O O O O O
 insípida B-positive O B-negative B-neutral B-negative
@@ -1861,8 +1861,8 @@ cobra O O O O O
 1 O O O O O
 . O O O O O
 
-Repetiré O I-negative B-negative I-positive O
-! O I-negative I-negative I-negative I-negative
+Repetiré O I-positive O B-positive B-neutral
+! O I-positive I-positive I-positive I-positive
 
 servicio B-positive B-positive B-positive B-positive B-positive
 estupendo O O O O O
@@ -1985,10 +1985,10 @@ a O O O O O
 casa O O O O O
 . O O O O O
 
-NO O I-negative B-negative I-positive O
-LO O I-negative I-negative I-negative I-negative
-RECOMIENDO O I-negative I-negative I-negative I-negative
-. O I-negative I-negative I-negative I-negative
+NO O I-positive O B-positive B-neutral
+LO O I-positive I-positive I-positive I-positive
+RECOMIENDO O I-positive I-positive I-positive I-positive
+. O I-positive I-positive I-positive I-positive
 
 La O O O O O
 calidad O O O O O
@@ -2063,12 +2063,12 @@ el O O O O I-positive
 2009 O O O O O
 . O O O O O
 
-De O I-negative B-negative I-positive O
-todas O I-negative I-negative I-negative I-negative
-formas O I-negative I-negative I-negative I-negative
-decidimos O I-negative I-negative I-negative I-negative
-quedarnos O I-negative I-negative I-negative I-negative
-. O I-negative I-negative I-negative I-negative
+De O I-positive O B-positive B-neutral
+todas O I-positive I-positive I-positive I-positive
+formas O I-positive I-positive I-positive I-positive
+decidimos O I-positive I-positive I-positive I-positive
+quedarnos O I-positive I-positive I-positive I-positive
+. O I-positive I-positive I-positive I-positive
 
 <+> O O O O O
 La O O O O O
@@ -2095,13 +2095,13 @@ que O O O O O
 tuve O O O O O
 . O O O O O
 
-Fue O O O O I-negative
-todo O O O O I-negative
-una O O O O I-negative
-experiencia O B-negative B-positive B-positive I-negative
-. O O O I-positive I-negative
+Fue O O O O I-positive
+todo O O O O I-positive
+una O O O O I-positive
+experiencia O B-negative B-positive B-positive I-positive
+. O O O I-positive I-positive
 
-Gonzalo O I-negative B-negative I-positive B-positive
+Gonzalo O I-positive B-positive B-neutral B-negative
 
 Aperitivos B-neutral B-positive O B-negative B-neutral
 : O O O O O
@@ -2174,8 +2174,8 @@ bastante O O O O O
 mediocre O O O O O
 . O O O O O
 
-Muy O I-negative B-negative I-positive O
-correcto O I-negative I-negative I-negative I-negative
+Muy O I-positive O B-positive B-neutral
+correcto O I-positive I-positive I-positive I-positive
 
 Croquetas B-neutral B-neutral B-neutral B-negative B-neutral
 oleosas I-neutral I-neutral I-neutral I-negative I-neutral
@@ -2213,16 +2213,16 @@ rape I-positive I-positive I-positive I-positive I-positive
 testimonial I-positive I-positive I-positive I-positive I-positive
 . O O O O O
 
-Los O O O O I-negative
-postres B-positive O B-negative B-neutral I-negative
-buenos O O O O I-negative
-. O O O O I-negative
+Los O O O O I-positive
+postres B-positive O B-negative B-neutral I-positive
+buenos O O O O I-positive
+. O O O O I-positive
 
-Esta O O O I-negative B-negative
-bien O B-positive B-positive I-negative I-negative
-la O O I-positive I-negative I-negative
-verdad O O O I-negative I-negative
-! O O O I-negative I-negative
+Esta O O O O I-positive
+bien O B-positive B-positive B-positive I-positive
+la O O I-positive I-positive I-positive
+verdad O O O I-positive I-positive
+! O O O I-positive I-positive
 
 Y O O O O O
 no O O O O O
@@ -2290,9 +2290,9 @@ la O O O O O
 altura O O O O O
 . O O O O O
 
-Todo O I-negative B-negative I-positive O
-excelente O I-negative I-negative I-negative I-negative
-. O I-negative I-negative I-negative I-negative
+Todo O I-positive O B-positive B-neutral
+excelente O I-positive I-positive I-positive I-positive
+. O I-positive I-positive I-positive I-positive
 
 Y O O O O O
 poner O O O O O
@@ -2307,9 +2307,9 @@ en O O O O O
 tiendas B-neutral B-neutral B-neutral B-neutral B-neutral
 turísticas I-neutral I-neutral I-neutral I-neutral I-neutral
 como O O O O O
-acompañamiento O O B-negative B-negative B-negative
+acompañamiento O B-negative O B-negative B-negative
 al O O O O I-negative
-café O B-negative O B-negative O
+café O O B-negative B-negative O
 … O O O O O
 ¡ O O O O O
 ¡ O O O O O
@@ -2469,7 +2469,7 @@ Fui O O O O O
 con O O O O O
 unos O O O O O
 amigos O O O O O
-mejicanos B-positive B-positive O O B-positive
+mejicanos B-positive B-positive O O B-negative
 y O O O O O
 tengo O O O O O
 que O O O O O
@@ -2497,7 +2497,7 @@ ofrecieron O O O O O
 más O O O O O
 una O O O O O
 vez O O O O O
-terminados B-positive O B-positive O B-negative
+terminados B-positive O B-positive O B-positive
 . O O O O O
 
 Mi O O O O O
@@ -2578,11 +2578,11 @@ pero O O O O O
 acogedora O O O O O
 . O O O O O
 
-Recomiendo O O O I-negative B-negative
-los O O O I-negative I-negative
-calçots B-positive O B-negative I-negative I-negative
-rebozados O O O I-negative I-negative
-. O O O I-negative I-negative
+Recomiendo O O O I-positive O
+los O O O I-positive I-positive
+calçots B-positive O B-negative I-positive I-positive
+rebozados O O O I-positive I-positive
+. O O O I-positive I-positive
 
 La O O O O O
 calidad O O O O O
@@ -2649,10 +2649,10 @@ el O O O O O
 trato B-positive B-positive B-positive B-positive B-positive
 .. O O O O O
 
-Repetiremos O I-negative B-negative I-positive O
-seguro O I-negative I-negative I-negative I-negative
-! O I-negative I-negative I-negative I-negative
-! O I-negative I-negative I-negative I-negative
+Repetiremos O I-positive O B-positive B-neutral
+seguro O I-positive I-positive I-positive I-positive
+! O I-positive I-positive I-positive I-positive
+! O I-positive I-positive I-positive I-positive
 
 Puedo O O O O O
 entender O O O O O
@@ -2762,7 +2762,7 @@ un O O O O O
 Fuimos O O O O O
 un O O O O O
 grupo O O O O O
-numeroso B-positive O B-positive O B-positive
+numeroso B-positive O B-positive O B-negative
 , O O O O O
 20 O O O O O
 personas O O O O O
@@ -2773,18 +2773,18 @@ atendieron O O O O O
 fenomenal O O O O O
 y O O O O O
 muy O O O O O
-efectivos B-positive B-positive O O B-negative
+efectivos B-positive B-positive O O B-positive
 . O O O O O
 
-Cuando O B-negative I-negative B-negative I-positive
-vuelva O O I-negative I-negative I-negative
-a O O I-negative I-negative I-negative
-Barcelona O O I-negative I-negative I-negative
-repetiré O O I-negative I-negative I-negative
-. O O I-negative I-negative I-negative
+Cuando O B-negative I-positive O B-positive
+vuelva O O I-positive I-positive I-positive
+a O O I-positive I-positive I-positive
+Barcelona O O I-positive I-positive I-positive
+repetiré O O I-positive I-positive I-positive
+. O O I-positive I-positive I-positive
 
-Buen O O O I-negative B-negative
-servicio O B-positive B-negative I-negative I-negative
+Buen O O O I-positive O
+servicio O B-positive B-negative I-positive I-positive
 
 El O O O O O
 servicio B-positive B-positive B-positive B-positive B-positive
@@ -2859,7 +2859,7 @@ quieran O O O O O
 disfrutar O O O O O
 . O O O O O
 
-Saludos O I-negative B-negative I-positive B-positive
+Saludos O I-positive B-positive B-neutral B-negative
 
 Algunos O O O O O
 platos O O O O B-positive
@@ -2911,8 +2911,8 @@ claidad B-positive B-positive O O B-positive
 excelente O O O O O
 . O O O O O
 
-una O I-negative B-negative I-positive O
-decepción O I-negative I-negative I-negative I-negative
+una O I-positive O B-positive B-neutral
+decepción O I-positive I-positive I-positive I-positive
 
 Paella B-positive B-positive B-positive B-positive O
 coloreada I-positive I-positive I-positive I-positive B-positive
@@ -3005,23 +3005,23 @@ mas O O O O O
 la O O O O O
 voz O O O O O
 para O O O O O
-oirte B-negative B-negative B-negative B-negative B-negative
-y I-negative I-negative I-negative I-negative I-negative
-se I-negative I-negative I-negative I-negative I-negative
-forma I-negative I-negative I-negative I-negative I-negative
-un I-negative I-negative I-negative I-negative I-negative
-ambiente I-negative I-negative I-negative I-negative I-negative
-que I-negative I-negative I-negative I-negative I-negative
-no I-negative I-negative I-negative I-negative I-negative
-lo I-negative I-negative I-negative I-negative I-negative
-que I-negative I-negative I-negative I-negative I-negative
-se I-negative I-negative I-negative I-negative I-negative
-espera I-negative I-negative I-negative I-negative I-negative
-de I-negative I-negative I-negative I-negative I-negative
-una I-negative I-negative I-negative I-negative I-negative
-estrella I-negative I-negative I-negative I-negative I-negative
-michelin I-negative I-negative I-negative I-negative I-negative
-. I-negative I-negative I-negative I-negative I-negative
+oirte B-positive B-positive B-positive B-positive B-positive
+y I-positive I-positive I-positive I-positive I-positive
+se I-positive I-positive I-positive I-positive I-positive
+forma I-positive I-positive I-positive I-positive I-positive
+un I-positive I-positive I-positive I-positive I-positive
+ambiente I-positive I-positive I-positive I-positive I-positive
+que I-positive I-positive I-positive I-positive I-positive
+no I-positive I-positive I-positive I-positive I-positive
+lo I-positive I-positive I-positive I-positive I-positive
+que I-positive I-positive I-positive I-positive I-positive
+se I-positive I-positive I-positive I-positive I-positive
+espera I-positive I-positive I-positive I-positive I-positive
+de I-positive I-positive I-positive I-positive I-positive
+una I-positive I-positive I-positive I-positive I-positive
+estrella I-positive I-positive I-positive I-positive I-positive
+michelin I-positive I-positive I-positive I-positive I-positive
+. I-positive I-positive I-positive I-positive I-positive
 
 El O O O O O
 sábado O O O O O
@@ -3172,10 +3172,10 @@ que O O O O O
 tomamos O O O O O
 . O O O O O
 
-100 O I-negative B-negative I-positive O
-% O I-negative I-negative I-negative I-negative
-recomendable O I-negative I-negative I-negative I-negative
-! O I-negative I-negative I-negative I-negative
+100 O I-positive O B-positive B-neutral
+% O I-positive I-positive I-positive I-positive
+recomendable O I-positive I-positive I-positive I-positive
+! O I-positive I-positive I-positive I-positive
 
 Tomamos O O O O O
 Vacío B-negative B-positive B-negative B-negative B-positive
@@ -3319,15 +3319,15 @@ tarde O O O O O
 bañandonos B-positive B-positive O O B-positive
 . O O O O O
 
-¿ O I-negative B-negative I-positive O
-Te O I-negative I-negative I-negative I-negative
-sacan O I-negative I-negative I-negative I-negative
-lo O I-negative I-negative I-negative I-negative
-mismo O I-negative I-negative I-negative I-negative
-que O I-negative I-negative I-negative I-negative
-a O I-negative I-negative I-negative I-negative
-8 O I-negative I-negative I-negative I-negative
-? O I-negative I-negative I-negative I-negative
+¿ O I-positive O B-positive B-neutral
+Te O I-positive I-positive I-positive I-positive
+sacan O I-positive I-positive I-positive I-positive
+lo O I-positive I-positive I-positive I-positive
+mismo O I-positive I-positive I-positive I-positive
+que O I-positive I-positive I-positive I-positive
+a O I-positive I-positive I-positive I-positive
+8 O I-positive I-positive I-positive I-positive
+? O I-positive I-positive I-positive I-positive
 
 <+> O O O O O
 entrantes B-positive B-positive O O O
@@ -3380,66 +3380,66 @@ y O O O O O
 creativa O O O O O
 . O O O O O
 
-Para O O O I-negative B-negative
-olvidar O B-negative B-positive I-negative I-negative
+Para O O O I-positive O
+olvidar O B-negative B-positive I-positive I-positive
 
-Las O O I-negative B-negative I-positive
-copas B-negative O I-negative I-negative I-negative
-económicas I-negative B-negative I-negative I-negative I-negative
-, I-negative I-negative I-negative I-negative I-negative
-y I-negative I-negative I-negative I-negative I-negative
-el I-negative I-negative I-negative I-negative I-negative
-show I-negative I-negative I-negative I-negative I-negative
-de I-negative I-negative I-negative I-negative I-negative
-las I-negative I-negative I-negative I-negative I-negative
-Drag I-negative I-negative I-negative I-negative I-negative
-’ I-negative I-negative I-negative I-negative I-negative
-s I-negative I-negative I-negative I-negative I-negative
-regulero.En I-negative I-negative I-negative I-negative I-negative
-resumen I-negative I-negative I-negative I-negative I-negative
-le I-negative I-negative I-negative I-negative I-negative
-doy I-negative I-negative I-negative I-negative I-negative
-una I-negative I-negative I-negative I-negative I-negative
-buena I-negative I-negative I-negative I-negative I-negative
-puntuación I-negative I-negative I-negative I-negative I-negative
-pero I-negative I-negative I-negative I-negative I-negative
-más I-negative I-negative I-negative I-negative I-negative
-como I-negative I-negative I-negative I-negative I-negative
-bar I-negative I-negative I-negative I-negative I-negative
-de I-negative I-negative I-negative I-negative I-negative
-copas I-negative I-negative I-negative I-negative I-negative
-, I-negative I-negative I-negative I-negative I-negative
-que I-negative I-negative I-negative I-negative I-negative
-para I-negative I-negative I-negative I-negative I-negative
-cenar I-negative I-negative I-negative I-negative I-negative
-, I-negative I-negative I-negative I-negative I-negative
-( I-negative I-negative I-negative I-negative I-negative
-bueno I-negative I-negative I-negative I-negative I-negative
-a I-negative I-negative I-negative I-negative I-negative
-lo I-negative I-negative I-negative I-negative I-negative
-mejor I-negative I-negative I-negative I-negative I-negative
-para I-negative I-negative I-negative I-negative I-negative
-recenar I-negative I-negative I-negative I-negative I-negative
-, I-negative I-negative I-negative I-negative I-negative
-o I-negative I-negative I-negative I-negative I-negative
-picotear I-negative I-negative I-negative I-negative I-negative
-) I-negative I-negative I-negative I-negative I-negative
-, I-negative I-negative I-negative I-negative I-negative
-pero I-negative I-negative I-negative I-negative I-negative
-no I-negative I-negative I-negative I-negative I-negative
-esperes I-negative I-negative I-negative I-negative I-negative
-llenarte I-negative I-negative I-negative I-negative I-negative
-, I-negative I-negative I-negative I-negative I-negative
-a I-negative I-negative I-negative I-negative I-negative
-nos I-negative I-negative I-negative I-negative I-negative
-que I-negative I-negative I-negative I-negative I-negative
-te I-negative I-negative I-negative I-negative I-negative
-gastes I-negative I-negative I-negative I-negative I-negative
-un I-negative I-negative I-negative I-negative I-negative
-pastón I-negative I-negative I-negative I-negative I-negative
-. I-negative I-negative I-negative I-negative I-negative
-Volvere I-negative I-negative I-negative I-negative I-negative
-? I-negative I-negative I-negative I-negative I-negative
+Las O O O O O
+copas B-negative B-positive O O O
+económicas I-negative I-positive B-positive O B-negative
+, O O O O O
+y O O O O O
+el O O O O O
+show B-positive B-positive B-positive B-positive B-positive
+de I-positive I-positive I-positive I-positive I-positive
+las I-positive I-positive I-positive I-positive I-positive
+Drag I-positive I-positive I-positive I-positive I-positive
+’ I-positive I-positive I-positive I-positive I-positive
+s I-positive I-positive I-positive I-positive I-positive
+regulero.En I-positive I-positive I-positive I-positive I-positive
+resumen I-positive I-positive I-positive I-positive I-positive
+le I-positive I-positive I-positive I-positive I-positive
+doy I-positive I-positive I-positive I-positive I-positive
+una I-positive I-positive I-positive I-positive I-positive
+buena I-positive I-positive I-positive I-positive I-positive
+puntuación I-positive I-positive I-positive I-positive I-positive
+pero I-positive I-positive I-positive I-positive I-positive
+más I-positive I-positive I-positive I-positive I-positive
+como I-positive I-positive I-positive I-positive I-positive
+bar I-positive I-positive I-positive I-positive I-positive
+de I-positive I-positive I-positive I-positive I-positive
+copas I-positive I-positive I-positive I-positive I-positive
+, I-positive I-positive I-positive I-positive I-positive
+que I-positive I-positive I-positive I-positive I-positive
+para I-positive I-positive I-positive I-positive I-positive
+cenar I-positive I-positive I-positive I-positive I-positive
+, I-positive I-positive I-positive I-positive I-positive
+( I-positive I-positive I-positive I-positive I-positive
+bueno I-positive I-positive I-positive I-positive I-positive
+a I-positive I-positive I-positive I-positive I-positive
+lo I-positive I-positive I-positive I-positive I-positive
+mejor I-positive I-positive I-positive I-positive I-positive
+para I-positive I-positive I-positive I-positive I-positive
+recenar I-positive I-positive I-positive I-positive I-positive
+, I-positive I-positive I-positive I-positive I-positive
+o I-positive I-positive I-positive I-positive I-positive
+picotear I-positive I-positive I-positive I-positive I-positive
+) I-positive I-positive I-positive I-positive I-positive
+, I-positive I-positive I-positive I-positive I-positive
+pero I-positive I-positive I-positive I-positive I-positive
+no I-positive I-positive I-positive I-positive I-positive
+esperes I-positive I-positive I-positive I-positive I-positive
+llenarte I-positive I-positive I-positive I-positive I-positive
+, I-positive I-positive I-positive I-positive I-positive
+a I-positive I-positive I-positive I-positive I-positive
+nos I-positive I-positive I-positive I-positive I-positive
+que I-positive I-positive I-positive I-positive I-positive
+te I-positive I-positive I-positive I-positive I-positive
+gastes I-positive I-positive I-positive I-positive I-positive
+un I-positive I-positive I-positive I-positive I-positive
+pastón I-positive I-positive I-positive I-positive I-positive
+. I-positive I-positive I-positive I-positive I-positive
+Volvere I-positive I-positive I-positive I-positive I-positive
+? I-positive I-positive I-positive I-positive I-positive
 
 El O O O O O
 resto O O B-negative O B-negative
@@ -3455,38 +3455,38 @@ muy O O O O I-positive
 atento O O O O O
 . O O O O O
 
-yo O O I-negative B-negative I-positive
-doy O O I-negative I-negative I-negative
-fe O O I-negative I-negative I-negative
-de O O I-negative I-negative I-negative
-que O O I-negative I-negative I-negative
-él O O I-negative I-negative I-negative
-no O B-negative I-negative I-negative I-negative
-sabia O O I-negative I-negative I-negative
-nada O O I-negative I-negative I-negative
-de O O I-negative I-negative I-negative
-nada O O I-negative I-negative I-negative
-. O O I-negative I-negative I-negative
+yo O O I-positive O B-positive
+doy O O I-positive I-positive I-positive
+fe O O I-positive I-positive I-positive
+de O O I-positive I-positive I-positive
+que O O I-positive I-positive I-positive
+él O O I-positive I-positive I-positive
+no O B-negative I-positive I-positive I-positive
+sabia O O I-positive I-positive I-positive
+nada O O I-positive I-positive I-positive
+de O O I-positive I-positive I-positive
+nada O O I-positive I-positive I-positive
+. O O I-positive I-positive I-positive
 
-Muchas O I-negative B-negative I-positive O
-gracias O I-negative I-negative I-negative I-negative
-en O I-negative I-negative I-negative I-negative
-Mayúsculas O I-negative I-negative I-negative I-negative
-! O I-negative I-negative I-negative I-negative
-! O I-negative I-negative I-negative I-negative
-! O I-negative I-negative I-negative I-negative
+Muchas O I-positive O B-positive B-neutral
+gracias O I-positive I-positive I-positive I-positive
+en O I-positive I-positive I-positive I-positive
+Mayúsculas O I-positive I-positive I-positive I-positive
+! O I-positive I-positive I-positive I-positive
+! O I-positive I-positive I-positive I-positive
+! O I-positive I-positive I-positive I-positive
 
-Pero O I-negative B-negative I-positive O
-hoy O I-negative I-negative I-negative I-negative
-será O I-negative I-negative I-negative I-negative
-la O I-negative I-negative I-negative I-negative
-última O I-negative I-negative I-negative I-negative
-. O I-negative I-negative I-negative I-negative
+Pero O I-positive O B-positive B-neutral
+hoy O I-positive I-positive I-positive I-positive
+será O I-positive I-positive I-positive I-positive
+la O I-positive I-positive I-positive I-positive
+última O I-positive I-positive I-positive I-positive
+. O I-positive I-positive I-positive I-positive
 
-Nosotros O O O O I-negative
-no O B-negative B-negative B-negative I-negative
-volveremos O O I-negative I-negative I-negative
-. O O O I-negative I-negative
+Nosotros O O O I-positive O
+no O B-negative B-negative I-positive I-positive
+volveremos O O I-negative I-positive I-positive
+. O O O I-positive I-positive
 
 Caro O O O O O
 por O O O O O
@@ -3772,9 +3772,9 @@ punto O O O O O
 justo O O O O O
 . O O O O O
 
-sorpresa O I-negative B-negative I-positive O
-agradable O I-negative I-negative I-negative I-negative
-. O I-negative I-negative I-negative I-negative
+sorpresa O I-positive O B-positive B-neutral
+agradable O I-positive I-positive I-positive I-positive
+. O I-positive I-positive I-positive I-positive
 
 esta O O O O O
 ultima O O O O O
@@ -3804,11 +3804,11 @@ irte O O O O O
 a O O O O O
 comer O O O O O
 un O O O O O
-bocadillo B-positive B-positive O O B-positive
+bocadillo B-positive B-positive O O B-negative
 por O O O O O
 que O O O O O
 te O O O O O
-quedas B-positive O B-positive O B-negative
+quedas B-positive O B-positive O B-positive
 con O O O O O
 hambre O O O O O
 . O O O O O
@@ -3828,7 +3828,7 @@ decoración B-positive B-positive B-positive B-positive B-positive
 pero O O O O O
 quiero O O O O O
 dejar O O O O O
-constancia B-positive B-positive O O B-positive
+constancia B-positive B-positive O O B-negative
 que O O O O O
 el O O O O O
 servicio B-positive B-positive B-positive B-positive B-positive
@@ -3841,7 +3841,7 @@ de O O O O O
 lo O O O O O
 que O O O O O
 se O O O O O
-merecería B-positive O B-positive O B-negative
+merecería B-positive O B-positive O B-positive
 el O O O O O
 restaurante O O O O O
 . O O O O O
@@ -3892,10 +3892,10 @@ su O O O O O
 señora O O O O O
 . O O O O O
 
-Estupendo O O O I-negative B-negative
-el O O O I-negative I-negative
-cabrito B-positive O B-positive I-negative I-negative
-. O O I-positive I-negative I-negative
+Estupendo O O O I-positive O
+el O O O I-positive I-positive
+cabrito B-positive O B-positive I-positive I-positive
+. O O I-positive I-positive I-positive
 
 Intento B-neutral B-negative B-positive B-neutral B-neutral
 de I-neutral I-negative I-positive O O
@@ -3908,11 +3908,11 @@ abajo O O O O O
 . O O O O O
 
 para O O O O O
-describir B-positive B-positive O O B-positive
+describir B-positive B-positive O O B-negative
 a O O O O O
 este O O O O O
 ya O O O O O
-clásico B-positive O B-positive O B-negative
+clásico B-positive O B-positive O B-positive
 en O O O O O
 Barcelona O O O O O
 . O O O O O
@@ -3978,20 +3978,20 @@ del O O O O O
 precio O O O O O
 . O O O O O
 
-Se O O O O I-negative
-pasa O O O O I-negative
-un O O O O I-negative
-muy O O O O I-negative
-buen O O O O I-negative
-rato O O O O I-negative
-en O O O O I-negative
-este O O O O I-negative
-restaurante O B-positive B-negative B-positive I-negative
-. O O O I-positive I-negative
+Se O O O O I-positive
+pasa O O O O I-positive
+un O O O O I-positive
+muy O O O O I-positive
+buen O O O O I-positive
+rato O O O O I-positive
+en O O O O I-positive
+este O O O O I-positive
+restaurante O B-positive B-negative B-positive I-positive
+. O O O I-positive I-positive
 
-Recomendable O B-positive I-negative B-negative I-positive
-100 O O I-negative I-negative I-negative
-% O O I-negative I-negative I-negative
+Recomendable O B-positive I-positive O B-positive
+100 O O I-positive I-positive I-positive
+% O O I-positive I-positive I-positive
 
 Muy O O O O O
 buen O O O O O
@@ -4033,7 +4033,7 @@ el O O O O O
 centro O O O O O
 como O O O O O
 el O O O O O
-Novodabo B-positive B-positive O O B-positive
+Novodabo B-positive B-positive O O B-negative
 ( O O O O O
 tanto O O O O O
 como O O O O O
@@ -4043,7 +4043,7 @@ al I-negative I-negative I-negative I-negative I-negative
 Cachirulo I-negative I-negative I-negative I-negative I-negative
 o O O O O O
 al O O O O O
-Dgusta B-positive O B-positive O B-negative
+Dgusta B-positive O B-positive O B-positive
 , O O O O O
 dicho O O O O O
 sea O O O O O
@@ -4123,23 +4123,23 @@ de O O O O O
 miniaturas B-positive O B-negative B-neutral B-positive
 . O O O O O
 
-Espectacular O I-negative B-negative I-positive O
-y O I-negative I-negative I-negative I-negative
-muy O I-negative I-negative I-negative I-negative
-sabroso O I-negative I-negative I-negative I-negative
-. O I-negative I-negative I-negative I-negative
+Espectacular O I-positive O B-positive B-neutral
+y O I-positive I-positive I-positive I-positive
+muy O I-positive I-positive I-positive I-positive
+sabroso O I-positive I-positive I-positive I-positive
+. O I-positive I-positive I-positive I-positive
 
-Recomendadisimo O I-negative B-negative I-positive O
-! O I-negative I-negative I-negative I-negative
+Recomendadisimo O I-positive O B-positive B-neutral
+! O I-positive I-positive I-positive I-positive
 
-Necesitan B-neutral B-positive O B-negative I-negative
-mejorar O O O O I-negative
-si O O O O I-negative
-quieren O O O O I-negative
-seguir O O O O I-negative
-cobrando O O O O I-negative
-eso O O O O I-negative
-. O O O O I-negative
+Necesitan B-neutral B-positive O B-negative I-positive
+mejorar O O O O I-positive
+si O O O O I-positive
+quieren O O O O I-positive
+seguir O O O O I-positive
+cobrando O O O O I-positive
+eso O O O O I-positive
+. O O O O I-positive
 
 Al O O O O O
 llegar O O O O O
@@ -4162,11 +4162,11 @@ más O O O O O
 tranquilos O O O O O
 . O O O O O
 
-Un O B-positive I-negative B-negative I-positive
-imprescindible O O I-negative I-negative I-negative
-de O O I-negative I-negative I-negative
-Zaragoza O O I-negative I-negative I-negative
-. O O I-negative I-negative I-negative
+Un O B-positive I-positive O B-positive
+imprescindible O O I-positive I-positive I-positive
+de O O I-positive I-positive I-positive
+Zaragoza O O I-positive I-positive I-positive
+. O O I-positive I-positive I-positive
 
 Si O O O O O
 mantienen O O O O O
@@ -4208,24 +4208,24 @@ al I-negative I-negative I-negative I-negative I-negative
 rededor I-negative I-negative I-negative I-negative I-negative
 para O O O O O
 conseguir O O O O O
-plazas B-positive B-positive O O B-positive
+plazas B-positive B-positive O O B-negative
 ... O O O O O
 lo O O O O O
 que O O O O O
-molesta B-positive O B-positive O B-negative
+molesta B-positive O B-positive O B-positive
 más O O O O O
 del O O O O O
 necesario O O O O O
 
-Ideal O O O I-negative B-negative
-para O O O I-negative I-negative
-cenas O O O I-negative I-negative
-de O O O I-negative I-negative
-4 O O O I-negative I-negative
-a O O O I-negative I-negative
-8 O O O I-negative I-negative
-personas O B-positive B-positive I-negative I-negative
-. O O I-positive I-negative I-negative
+Ideal O O O I-positive O
+para O O O I-positive I-positive
+cenas O O O I-positive I-positive
+de O O O I-positive I-positive
+4 O O O I-positive I-positive
+a O O O I-positive I-positive
+8 O O O I-positive I-positive
+personas O B-positive B-positive I-positive I-positive
+. O O I-positive I-positive I-positive
 
 Deberían B-neutral B-neutral B-positive B-positive O
 revisar O O O O O
@@ -4291,16 +4291,16 @@ la O O O O O
 suya B-positive B-positive O B-positive B-positive
 . O O O O O
 
-fui O O O O I-negative
-con O O O O I-negative
-unos O O O O I-negative
-clientes O O O O I-negative
-erabamos B-positive O B-negative B-neutral I-negative
-8 O O O O I-negative
-y O O O O I-negative
-nos O O O O I-negative
-encanto O O O O I-negative
-. O O O O I-negative
+fui O O O O I-positive
+con O O O O I-positive
+unos O O O O I-positive
+clientes O O O O I-positive
+erabamos B-positive O B-negative B-neutral I-positive
+8 O O O O I-positive
+y O O O O I-positive
+nos O O O O I-positive
+encanto O O O O I-positive
+. O O O O I-positive
 
 la O O O O O
 cena O B-positive O O B-positive
@@ -4378,41 +4378,41 @@ local B-positive B-positive B-positive B-positive B-positive
 se O O O O O
 pueden O O O O O
 degustar O O O O O
-verdaderas B-positive O B-positive O B-positive
+verdaderas B-positive O B-positive O B-negative
 delicias O O O O O
 es O O O O O
 una O O O O O
 auténtica O O O O O
-temeridad B-positive B-positive O O B-negative
+temeridad B-positive B-positive O O B-positive
 . O O O O O
 
-Yo O O O I-negative B-negative
-vi O O O I-negative I-negative
-por O O O I-negative I-negative
-ejemplo O O O I-negative I-negative
-un O O O I-negative I-negative
-plato O B-negative B-negative I-negative I-negative
-de O O I-negative I-negative I-negative
-judías B-positive B-positive I-negative I-negative I-negative
-verdes I-positive I-positive I-negative I-negative I-negative
-que O O I-negative I-negative I-negative
-era O O I-negative I-negative I-negative
-una O O I-negative I-negative I-negative
-cantidad O O I-negative I-negative I-negative
-muy O O I-negative I-negative I-negative
-muy O O I-negative I-negative I-negative
-pequeña O O I-negative I-negative I-negative
-que O O I-negative I-negative I-negative
-eran O O I-negative I-negative I-negative
-los O O I-negative I-negative I-negative
-comensales O O I-negative I-negative I-negative
-vecinos O O I-negative I-negative I-negative
-que O O I-negative I-negative I-negative
-teníamos O O I-negative I-negative I-negative
-a O O I-negative I-negative I-negative
-nuestro O O I-negative I-negative I-negative
-lado O O I-negative I-negative I-negative
-. O O I-negative I-negative I-negative
+Yo O O O O I-positive
+vi O O O O I-positive
+por O O O O I-positive
+ejemplo O O O O I-positive
+un O O O O I-positive
+plato O B-negative O B-negative I-positive
+de O O O O I-positive
+judías B-positive B-positive B-positive B-positive I-positive
+verdes I-positive I-positive I-positive I-positive I-positive
+que O O I-positive I-positive I-positive
+era O O I-positive I-positive I-positive
+una O O I-positive I-positive I-positive
+cantidad O O I-positive I-positive I-positive
+muy O O I-positive I-positive I-positive
+muy O O I-positive I-positive I-positive
+pequeña O O I-positive I-positive I-positive
+que O O I-positive I-positive I-positive
+eran O O I-positive I-positive I-positive
+los O O I-positive I-positive I-positive
+comensales O O I-positive I-positive I-positive
+vecinos O O I-positive I-positive I-positive
+que O O I-positive I-positive I-positive
+teníamos O O I-positive I-positive I-positive
+a O O I-positive I-positive I-positive
+nuestro O O I-positive I-positive I-positive
+lado O O I-positive I-positive I-positive
+. O O I-positive I-positive I-positive
 
 Calidad O O O O O
 excelente O O O O O
@@ -4454,11 +4454,11 @@ menu O O O O O
 ) O O O O O
 . O O O O O
 
-Lo O I-negative B-negative I-positive O
-recomiendo O I-negative I-negative I-negative I-negative
-! O I-negative I-negative I-negative I-negative
-! O I-negative I-negative I-negative I-negative
-! O I-negative I-negative I-negative I-negative
+Lo O I-positive O B-positive B-neutral
+recomiendo O I-positive I-positive I-positive I-positive
+! O I-positive I-positive I-positive I-positive
+! O I-positive I-positive I-positive I-positive
+! O I-positive I-positive I-positive I-positive
 
 Totalmente O O O O O
 recomendable O O O O O
@@ -4666,26 +4666,26 @@ y O O O O O
 acogedor O O O O O
 . O O O O O
 
-Tampoco O O O I-negative B-negative
-nos O O O I-negative I-negative
-avisaron O O O I-negative I-negative
-que O O O I-negative I-negative
-era O O O I-negative I-negative
-menu O B-positive B-negative I-negative I-negative
-cerrado O O O I-negative I-negative
-ese O O O I-negative I-negative
-dia O O O I-negative I-negative
-. O O O I-negative I-negative
+Tampoco O O O I-positive O
+nos O O O I-positive I-positive
+avisaron O O O I-positive I-positive
+que O O O I-positive I-positive
+era O O O I-positive I-positive
+menu O B-positive B-negative I-positive I-positive
+cerrado O O O I-positive I-positive
+ese O O O I-positive I-positive
+dia O O O I-positive I-positive
+. O O O I-positive I-positive
 
-Si O I-negative B-negative I-positive O
-lo O I-negative I-negative I-negative I-negative
-mantienen O I-negative I-negative I-negative I-negative
-, O I-negative I-negative I-negative I-negative
-el O I-negative I-negative I-negative I-negative
-próximo O I-negative I-negative I-negative I-negative
-año O I-negative I-negative I-negative I-negative
-repetiremos O I-negative I-negative I-negative I-negative
-! O I-negative I-negative I-negative I-negative
+Si O I-positive O B-positive B-neutral
+lo O I-positive I-positive I-positive I-positive
+mantienen O I-positive I-positive I-positive I-positive
+, O I-positive I-positive I-positive I-positive
+el O I-positive I-positive I-positive I-positive
+próximo O I-positive I-positive I-positive I-positive
+año O I-positive I-positive I-positive I-positive
+repetiremos O I-positive I-positive I-positive I-positive
+! O I-positive I-positive I-positive I-positive
 
 La O O O O B-negative
 salsa O B-positive B-negative B-neutral I-negative
@@ -4850,9 +4850,9 @@ de O O O O O
 antes O O O O O
 y O O O O O
 muy O O O O O
-gentílmente B-positive O B-positive O B-positive
+gentílmente B-positive O B-positive O B-negative
 me O O O O O
-explicaron B-positive B-positive O O B-negative
+explicaron B-positive B-positive O O B-positive
 los O O O O O
 3 O O O O O
 menús O O O O O
@@ -4910,17 +4910,17 @@ lo O O O O O
 hicimos O O O O O
 . O O O O O
 
-Cenamos O O O I-negative B-negative
-ayer O O O I-negative I-negative
-sabado O O O I-negative I-negative
-, O O O I-negative I-negative
-por O O O I-negative I-negative
-nuestro O O O I-negative I-negative
-aniversario O O O I-negative I-negative
-, O O O I-negative I-negative
-2 O O O I-negative I-negative
-personas O B-positive B-positive I-negative I-negative
-. O O I-positive I-negative I-negative
+Cenamos O O O I-positive O
+ayer O O O I-positive I-positive
+sabado O O O I-positive I-positive
+, O O O I-positive I-positive
+por O O O I-positive I-positive
+nuestro O O O I-positive I-positive
+aniversario O O O I-positive I-positive
+, O O O I-positive I-positive
+2 O O O I-positive I-positive
+personas O B-positive B-positive I-positive I-positive
+. O O I-positive I-positive I-positive
 
 Local B-positive B-negative B-negative B-positive B-positive
 de O I-negative O O O
@@ -4939,12 +4939,12 @@ pena O O O O O
 . O O O O O
 
 No O O O O O
-entndemos B-positive B-positive O O B-positive
+entndemos B-positive B-positive O O B-negative
 para O O O O O
 qué O O O O O
 nos O O O O O
 hicieron O O O O O
-escoger B-positive O B-positive O B-negative
+escoger B-positive O B-positive O B-positive
 entre O O O O O
 el O O O O O
 primer O O O O O
@@ -4981,7 +4981,7 @@ Mi O O O O O
 padre O O O O O
 y O O O O O
 mi O O O O O
-hermano B-positive B-positive O O B-positive
+hermano B-positive B-positive O O B-negative
 van O O O O O
 a O O O O O
 comer O O O O O
@@ -5001,7 +5001,7 @@ semana O O O O O
 ) O O O O O
 porque O O O O O
 se O O O O O
-sienten B-positive O B-positive O B-negative
+sienten B-positive O B-positive O B-positive
 como O O O O O
 en O O O O O
 casa O O O O O
@@ -5051,91 +5051,91 @@ forraron B-neutral B-neutral B-neutral B-neutral B-neutral
 con I-neutral I-neutral I-neutral I-neutral I-neutral
 huevas I-neutral I-neutral I-neutral I-neutral I-neutral
 de O O O O O
-pescado B-negative B-negative B-negative B-negative B-negative
-de I-negative I-negative I-negative I-negative I-negative
-color I-negative I-negative I-negative I-negative I-negative
-naranja I-negative I-negative I-negative I-negative I-negative
-que I-negative I-negative I-negative I-negative I-negative
-con I-negative I-negative I-negative I-negative I-negative
-su I-negative I-negative I-negative I-negative I-negative
-fuerte I-negative I-negative I-negative I-negative I-negative
-sabor I-negative I-negative I-negative I-negative I-negative
-y I-negative I-negative I-negative I-negative I-negative
-estar I-negative I-negative I-negative I-negative I-negative
-conservadas I-negative I-negative I-negative I-negative I-negative
-en I-negative I-negative I-negative I-negative I-negative
-sal I-negative I-negative I-negative I-negative I-negative
-énmascaraban I-negative I-negative I-negative I-negative I-negative
-el I-negative I-negative I-negative I-negative I-negative
-sabor I-negative I-negative I-negative I-negative I-negative
-originarl I-negative I-negative I-negative I-negative I-negative
-de I-negative I-negative I-negative I-negative I-negative
-los I-negative I-negative I-negative I-negative I-negative
-platos.No I-negative I-negative I-negative I-negative I-negative
-se I-negative I-negative I-negative I-negative I-negative
-si I-negative I-negative I-negative I-negative I-negative
-fue I-negative I-negative I-negative I-negative I-negative
-casualidad I-negative I-negative I-negative I-negative I-negative
-lo I-negative I-negative I-negative I-negative I-negative
-de I-negative I-negative I-negative I-negative I-negative
-añadir I-negative I-negative I-negative I-negative I-negative
-las I-negative I-negative I-negative I-negative I-negative
-huevas I-negative I-negative I-negative I-negative I-negative
-a I-negative I-negative I-negative I-negative I-negative
-los I-negative I-negative I-negative I-negative I-negative
-dos I-negative I-negative I-negative I-negative I-negative
-platos I-negative I-negative I-negative I-negative I-negative
-, I-negative I-negative I-negative I-negative I-negative
-pero I-negative I-negative I-negative I-negative I-negative
-si I-negative I-negative I-negative I-negative I-negative
-no I-negative I-negative I-negative I-negative I-negative
-lo I-negative I-negative I-negative I-negative I-negative
-hicieron I-negative I-negative I-negative I-negative I-negative
-por I-negative I-negative I-negative I-negative I-negative
-acabar I-negative I-negative I-negative I-negative I-negative
-la I-negative I-negative I-negative I-negative I-negative
-latita I-negative I-negative I-negative I-negative I-negative
-, I-negative I-negative I-negative I-negative I-negative
-repetir I-negative I-negative I-negative I-negative I-negative
-dos I-negative I-negative I-negative I-negative I-negative
-veces I-negative I-negative I-negative I-negative I-negative
-y I-negative I-negative I-negative I-negative I-negative
-encima I-negative I-negative I-negative I-negative I-negative
-con I-negative I-negative I-negative I-negative I-negative
-la I-negative I-negative I-negative I-negative I-negative
-adición I-negative I-negative I-negative I-negative I-negative
-de I-negative I-negative I-negative I-negative I-negative
-algo I-negative I-negative I-negative I-negative I-negative
-muy I-negative I-negative I-negative I-negative I-negative
-salado I-negative I-negative I-negative I-negative I-negative
-cuando I-negative I-negative I-negative I-negative I-negative
-habíamos I-negative I-negative I-negative I-negative I-negative
-mencionado I-negative I-negative I-negative I-negative I-negative
-la I-negative I-negative I-negative I-negative I-negative
-cuestión I-negative I-negative I-negative I-negative I-negative
-de I-negative I-negative I-negative I-negative I-negative
-la I-negative I-negative I-negative I-negative I-negative
-sal I-negative I-negative I-negative I-negative I-negative
-y I-negative I-negative I-negative I-negative I-negative
-que I-negative I-negative I-negative I-negative I-negative
-los I-negative I-negative I-negative I-negative I-negative
-platos I-negative I-negative I-negative I-negative I-negative
-se I-negative I-negative I-negative I-negative I-negative
-podrían I-negative I-negative I-negative I-negative I-negative
-haber I-negative I-negative I-negative I-negative I-negative
-servido I-negative I-negative I-negative I-negative I-negative
-sin I-negative I-negative I-negative I-negative I-negative
-las I-negative I-negative I-negative I-negative I-negative
-huevas I-negative I-negative I-negative I-negative I-negative
-. I-negative I-negative I-negative I-negative I-negative
+pescado B-positive B-positive B-positive B-positive B-positive
+de I-positive I-positive I-positive I-positive I-positive
+color I-positive I-positive I-positive I-positive I-positive
+naranja I-positive I-positive I-positive I-positive I-positive
+que I-positive I-positive I-positive I-positive I-positive
+con I-positive I-positive I-positive I-positive I-positive
+su I-positive I-positive I-positive I-positive I-positive
+fuerte I-positive I-positive I-positive I-positive I-positive
+sabor I-positive I-positive I-positive I-positive I-positive
+y I-positive I-positive I-positive I-positive I-positive
+estar I-positive I-positive I-positive I-positive I-positive
+conservadas I-positive I-positive I-positive I-positive I-positive
+en I-positive I-positive I-positive I-positive I-positive
+sal I-positive I-positive I-positive I-positive I-positive
+énmascaraban I-positive I-positive I-positive I-positive I-positive
+el I-positive I-positive I-positive I-positive I-positive
+sabor I-positive I-positive I-positive I-positive I-positive
+originarl I-positive I-positive I-positive I-positive I-positive
+de I-positive I-positive I-positive I-positive I-positive
+los I-positive I-positive I-positive I-positive I-positive
+platos.No I-positive I-positive I-positive I-positive I-positive
+se I-positive I-positive I-positive I-positive I-positive
+si I-positive I-positive I-positive I-positive I-positive
+fue I-positive I-positive I-positive I-positive I-positive
+casualidad I-positive I-positive I-positive I-positive I-positive
+lo I-positive I-positive I-positive I-positive I-positive
+de I-positive I-positive I-positive I-positive I-positive
+añadir I-positive I-positive I-positive I-positive I-positive
+las I-positive I-positive I-positive I-positive I-positive
+huevas I-positive I-positive I-positive I-positive I-positive
+a I-positive I-positive I-positive I-positive I-positive
+los I-positive I-positive I-positive I-positive I-positive
+dos I-positive I-positive I-positive I-positive I-positive
+platos I-positive I-positive I-positive I-positive I-positive
+, I-positive I-positive I-positive I-positive I-positive
+pero I-positive I-positive I-positive I-positive I-positive
+si I-positive I-positive I-positive I-positive I-positive
+no I-positive I-positive I-positive I-positive I-positive
+lo I-positive I-positive I-positive I-positive I-positive
+hicieron I-positive I-positive I-positive I-positive I-positive
+por I-positive I-positive I-positive I-positive I-positive
+acabar I-positive I-positive I-positive I-positive I-positive
+la I-positive I-positive I-positive I-positive I-positive
+latita I-positive I-positive I-positive I-positive I-positive
+, I-positive I-positive I-positive I-positive I-positive
+repetir I-positive I-positive I-positive I-positive I-positive
+dos I-positive I-positive I-positive I-positive I-positive
+veces I-positive I-positive I-positive I-positive I-positive
+y I-positive I-positive I-positive I-positive I-positive
+encima I-positive I-positive I-positive I-positive I-positive
+con I-positive I-positive I-positive I-positive I-positive
+la I-positive I-positive I-positive I-positive I-positive
+adición I-positive I-positive I-positive I-positive I-positive
+de I-positive I-positive I-positive I-positive I-positive
+algo I-positive I-positive I-positive I-positive I-positive
+muy I-positive I-positive I-positive I-positive I-positive
+salado I-positive I-positive I-positive I-positive I-positive
+cuando I-positive I-positive I-positive I-positive I-positive
+habíamos I-positive I-positive I-positive I-positive I-positive
+mencionado I-positive I-positive I-positive I-positive I-positive
+la I-positive I-positive I-positive I-positive I-positive
+cuestión I-positive I-positive I-positive I-positive I-positive
+de I-positive I-positive I-positive I-positive I-positive
+la I-positive I-positive I-positive I-positive I-positive
+sal I-positive I-positive I-positive I-positive I-positive
+y I-positive I-positive I-positive I-positive I-positive
+que I-positive I-positive I-positive I-positive I-positive
+los I-positive I-positive I-positive I-positive I-positive
+platos I-positive I-positive I-positive I-positive I-positive
+se I-positive I-positive I-positive I-positive I-positive
+podrían I-positive I-positive I-positive I-positive I-positive
+haber I-positive I-positive I-positive I-positive I-positive
+servido I-positive I-positive I-positive I-positive I-positive
+sin I-positive I-positive I-positive I-positive I-positive
+las I-positive I-positive I-positive I-positive I-positive
+huevas I-positive I-positive I-positive I-positive I-positive
+. I-positive I-positive I-positive I-positive I-positive
 
-Todo O I-negative B-negative I-positive O
-lo O I-negative I-negative I-negative I-negative
-que O I-negative I-negative I-negative I-negative
-probamos O I-negative I-negative I-negative I-negative
-nos O I-negative I-negative I-negative I-negative
-encantó O I-negative I-negative I-negative I-negative
-. O I-negative I-negative I-negative I-negative
+Todo O I-positive O B-positive B-neutral
+lo O I-positive I-positive I-positive I-positive
+que O I-positive I-positive I-positive I-positive
+probamos O I-positive I-positive I-positive I-positive
+nos O I-positive I-positive I-positive I-positive
+encantó O I-positive I-positive I-positive I-positive
+. O I-positive I-positive I-positive I-positive
 
 Mi O O O O O
 acompañante O O O O O
@@ -5170,10 +5170,10 @@ comer O O O O O
 enseguida O O O O O
 . O O O O O
 
-Todo O O I-negative B-negative I-positive
-estuvo O O I-negative I-negative I-negative
-muy O O I-negative I-negative I-negative
-bien O B-positive I-negative I-negative I-negative
+Todo O O I-positive O B-positive
+estuvo O O I-positive I-positive I-positive
+muy O O I-positive I-positive I-positive
+bien O B-positive I-positive I-positive I-positive
 
 Buena O O O O O
 calidad O B-positive O O B-negative
@@ -5307,82 +5307,82 @@ confundieron B-positive B-positive O O B-positive
 totalmente O O O O O
 . O O O O O
 
-el I-negative B-negative I-positive O B-positive
-menu I-negative I-negative I-negative I-negative I-negative
-me I-negative I-negative I-negative I-negative I-negative
-parece I-negative I-negative I-negative I-negative I-negative
-muy I-negative I-negative I-negative I-negative I-negative
-completo I-negative I-negative I-negative I-negative I-negative
-pero I-negative I-negative I-negative I-negative I-negative
-yo I-negative I-negative I-negative I-negative I-negative
-le I-negative I-negative I-negative I-negative I-negative
-agregaria I-negative I-negative I-negative I-negative I-negative
-algo I-negative I-negative I-negative I-negative I-negative
-asi I-negative I-negative I-negative I-negative I-negative
-como I-negative I-negative I-negative I-negative I-negative
-conejo I-negative I-negative I-negative I-negative I-negative
-estofado I-negative I-negative I-negative I-negative I-negative
-o I-negative I-negative I-negative I-negative I-negative
-pavo I-negative I-negative I-negative I-negative I-negative
-/ I-negative I-negative I-negative I-negative I-negative
-pollo I-negative I-negative I-negative I-negative I-negative
-al I-negative I-negative I-negative I-negative I-negative
-horno I-negative I-negative I-negative I-negative I-negative
-, I-negative I-negative I-negative I-negative I-negative
-y I-negative I-negative I-negative I-negative I-negative
-en I-negative I-negative I-negative I-negative I-negative
-cuando I-negative I-negative I-negative I-negative I-negative
-a I-negative I-negative I-negative I-negative I-negative
-los I-negative I-negative I-negative I-negative I-negative
-postre I-negative I-negative I-negative I-negative I-negative
-, I-negative I-negative I-negative I-negative I-negative
-me I-negative I-negative I-negative I-negative I-negative
-parece I-negative I-negative I-negative I-negative I-negative
-muy I-negative I-negative I-negative I-negative I-negative
-bien I-negative I-negative I-negative I-negative I-negative
-, I-negative I-negative I-negative I-negative I-negative
-es I-negative I-negative I-negative I-negative I-negative
-uno I-negative I-negative I-negative I-negative I-negative
-de I-negative I-negative I-negative I-negative I-negative
-los I-negative I-negative I-negative I-negative I-negative
-restaurantes I-negative I-negative I-negative I-negative I-negative
-con I-negative I-negative I-negative I-negative I-negative
-mayor I-negative I-negative I-negative I-negative I-negative
-cantidad I-negative I-negative I-negative I-negative I-negative
-de I-negative I-negative I-negative I-negative I-negative
-postre I-negative I-negative I-negative I-negative I-negative
-y I-negative I-negative I-negative I-negative I-negative
-muy I-negative I-negative I-negative I-negative I-negative
-variados I-negative I-negative I-negative I-negative I-negative
-, I-negative I-negative I-negative I-negative I-negative
-los I-negative I-negative I-negative I-negative I-negative
-felicitos I-negative I-negative I-negative I-negative I-negative
-sin I-negative I-negative I-negative I-negative I-negative
-mas I-negative I-negative I-negative I-negative I-negative
-que I-negative I-negative I-negative I-negative I-negative
-hacer I-negative I-negative I-negative I-negative I-negative
-referencia I-negative I-negative I-negative I-negative I-negative
-les I-negative I-negative I-negative I-negative I-negative
-saludo I-negative I-negative I-negative I-negative I-negative
-y I-negative I-negative I-negative I-negative I-negative
-espero I-negative I-negative I-negative I-negative I-negative
-pronto I-negative I-negative I-negative I-negative I-negative
-visitar I-negative I-negative I-negative I-negative I-negative
-vuestro I-negative I-negative I-negative I-negative I-negative
-restaurant I-negative I-negative I-negative I-negative I-negative
-hasta I-negative I-negative I-negative I-negative I-negative
-luego I-negative I-negative I-negative I-negative I-negative
-. I-negative I-negative I-negative I-negative I-negative
+el O O O O O
+menu O O O O B-positive
+me O O O O O
+parece O O O O O
+muy O O O O O
+completo O O O O O
+pero O O O O O
+yo O O O O O
+le O O O O O
+agregaria B-positive O B-negative B-neutral B-positive
+algo O O O O O
+asi O O O O O
+como O O O O O
+conejo B-positive B-positive B-positive B-positive B-positive
+estofado I-positive I-positive I-positive I-positive I-positive
+o I-positive I-positive I-positive I-positive I-positive
+pavo I-positive I-positive I-positive I-positive I-positive
+/ I-positive I-positive I-positive I-positive I-positive
+pollo I-positive I-positive I-positive I-positive I-positive
+al I-positive I-positive I-positive I-positive I-positive
+horno I-positive I-positive I-positive I-positive I-positive
+, I-positive I-positive I-positive I-positive I-positive
+y I-positive I-positive I-positive I-positive I-positive
+en I-positive I-positive I-positive I-positive I-positive
+cuando I-positive I-positive I-positive I-positive I-positive
+a I-positive I-positive I-positive I-positive I-positive
+los I-positive I-positive I-positive I-positive I-positive
+postre I-positive I-positive I-positive I-positive I-positive
+, I-positive I-positive I-positive I-positive I-positive
+me I-positive I-positive I-positive I-positive I-positive
+parece I-positive I-positive I-positive I-positive I-positive
+muy I-positive I-positive I-positive I-positive I-positive
+bien I-positive I-positive I-positive I-positive I-positive
+, I-positive I-positive I-positive I-positive I-positive
+es I-positive I-positive I-positive I-positive I-positive
+uno I-positive I-positive I-positive I-positive I-positive
+de I-positive I-positive I-positive I-positive I-positive
+los I-positive I-positive I-positive I-positive I-positive
+restaurantes I-positive I-positive I-positive I-positive I-positive
+con I-positive I-positive I-positive I-positive I-positive
+mayor I-positive I-positive I-positive I-positive I-positive
+cantidad I-positive I-positive I-positive I-positive I-positive
+de I-positive I-positive I-positive I-positive I-positive
+postre I-positive I-positive I-positive I-positive I-positive
+y I-positive I-positive I-positive I-positive I-positive
+muy I-positive I-positive I-positive I-positive I-positive
+variados I-positive I-positive I-positive I-positive I-positive
+, I-positive I-positive I-positive I-positive I-positive
+los I-positive I-positive I-positive I-positive I-positive
+felicitos I-positive I-positive I-positive I-positive I-positive
+sin I-positive I-positive I-positive I-positive I-positive
+mas I-positive I-positive I-positive I-positive I-positive
+que I-positive I-positive I-positive I-positive I-positive
+hacer I-positive I-positive I-positive I-positive I-positive
+referencia I-positive I-positive I-positive I-positive I-positive
+les I-positive I-positive I-positive I-positive I-positive
+saludo I-positive I-positive I-positive I-positive I-positive
+y I-positive I-positive I-positive I-positive I-positive
+espero I-positive I-positive I-positive I-positive I-positive
+pronto I-positive I-positive I-positive I-positive I-positive
+visitar I-positive I-positive I-positive I-positive I-positive
+vuestro I-positive I-positive I-positive I-positive I-positive
+restaurant I-positive I-positive I-positive I-positive I-positive
+hasta I-positive I-positive I-positive I-positive I-positive
+luego I-positive I-positive I-positive I-positive I-positive
+. I-positive I-positive I-positive I-positive I-positive
 
-Nos O I-negative B-negative I-positive O
-ha O I-negative I-negative I-negative I-negative
-encantado O I-negative I-negative I-negative I-negative
-. O I-negative I-negative I-negative I-negative
+Nos O I-positive O B-positive B-neutral
+ha O I-positive I-positive I-positive I-positive
+encantado O I-positive I-positive I-positive I-positive
+. O I-positive I-positive I-positive I-positive
 
-el O O O O I-negative
-servicio B-positive B-negative O B-neutral I-negative
-impecable O O O O I-negative
-. O O O O I-negative
+el O O O O I-positive
+servicio B-positive B-negative O B-neutral I-positive
+impecable O O O O I-positive
+. O O O O I-positive
 
 Hola O O O O O
 Jose O O O O O
@@ -5461,7 +5461,7 @@ humano B-positive O B-positive O B-negative
 
 Para O O O O O
 mí O O O O O
-prohibitivo B-positive O B-positive O B-positive
+prohibitivo B-positive O B-positive O B-negative
 en O O O O O
 estos O O O O O
 tiempos O O O O O
@@ -5474,7 +5474,7 @@ todo O O O O O
 no O O O O O
 creo O O O O O
 que O O O O O
-ganen B-positive B-positive O O B-negative
+ganen B-positive B-positive O O B-positive
 mucho O O O O O
 dinero O O O O O
 porque O O O O O
