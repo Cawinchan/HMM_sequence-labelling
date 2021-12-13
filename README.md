@@ -14,7 +14,8 @@
   |        ├── test.in                  <- Final Test data
   |        ├── train                    <- Train data
   |        ├── embeddings-l-model.bin   <- Large Binary FastText model
-  |        └── embeddings-s-model.bin   <- Small Binary FastText model
+  |        ├── embeddings-s-model.bin   <- Small Binary FastText model
+  |        └── p4_tests                 <- Folder for k, r test outputs for extended HMM
   │   ├── RU        <- Russian train and test set
   │   └── Eval      <- Evaluation Script
   │
@@ -23,7 +24,7 @@
   │   ├── transition.py           <- Part 2a solution
   │   ├── viterbi.py              <- Part 2b solution
   │   ├── best_k_viterbi.py       <- Part 3 solution
-  │   └── test_paramters.py       <- Test for best_k_viterbi
+  │   └── test_parameters.py       <- Test for best_k_viterbi
   │
   ├── main.py       <- main python file
   │
