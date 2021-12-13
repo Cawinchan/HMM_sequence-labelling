@@ -30,8 +30,8 @@ done
 
 echo "~~~~~~~~~~~~~~ Part 4: ES Results" >> results.txt
 
-python data/Eval/evalResult.py data/ES/dev.out data/ES/dev.p4.out >> results.txt
+python data/Eval/evalResult.py data/ES/dev.out data/ES/dev.p4_k2_r0.out >> results.txt
 
 echo "~~~~~~~~~~~~~~ Part 4: RU Results" >> results.txt
 
-python data/Eval/evalResult.py data/ES/dev.out data/ES/dev.p4.out >> results.txt
+python data/Eval/evalResult.py data/RU/dev.out data/RU/dev.p4_k1_r200.out >> results.txt

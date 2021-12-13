@@ -39,5 +39,7 @@ if __name__ == "__main__":
     part_3(nonsparse_emission_dict,nonsparse_transmission_dict,stateset,test_dir)
     print(f"Done generating {folder_dir} outputs")
 
+    
+    # Part 4 exists in project_part_4.ipynb
 
 
